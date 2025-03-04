@@ -7,6 +7,7 @@ const app = express();
 
 // Middleware
 app.use(cors());
+app.use(express.json());
 app.use(bodyParser.json());
 
 // Uppkoppling mot databasen
